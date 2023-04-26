@@ -24,7 +24,7 @@ const config = Object.freeze({
   BOT_NAME: env.BOT_NAME || 'AI',
   BOT_INIT_PROMPT: env.BOT_INIT_PROMPT || 'dd',
   BOT_TONE: env.BOT_TONE || '',
-  BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || true,
+  BOT_DEACTIVATED: env.BOT_DEACTIVATED === 'true' || 'true',
   ERROR_MESSAGE_DISABLED: env.ERROR_MESSAGE_DISABLED === 'true' || /** @deprecated */ env.ERROR_TIMEOUT_DISABLED === 'true' || false,
   VERCEL_ENV: env.VERCEL_ENV || null,
   VERCEL_TIMEOUT: env.VERCEL_TIMEOUT || env.APP_API_TIMEOUT,
